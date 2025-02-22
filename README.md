@@ -1,6 +1,9 @@
+
+## 即将更新Serv00最新视频说明教程………………
+
 # Sing-box两大脚本
 ## 一、Sing-box-yg精装桶一键四协议共存脚本（VPS专用）
-## 二、Serv00多平台一键三协议共存脚本（Serv00专用）
+## 二、Serv00-sb-yg多平台一键三协议共存脚本（Serv00专用）
 
 ### 交流平台：[甬哥博客地址](https://ygkkk.blogspot.com)、[甬哥YouTube频道](https://www.youtube.com/@ygkkk)、[甬哥TG电报群组](https://t.me/+jZHc6-A-1QQ5ZGVl)、[甬哥TG电报频道](https://t.me/+DkC9ZZUgEFQzMTZl)
 --------------------------------------------------------------
@@ -94,13 +97,9 @@ curl -sSL https://raw.githubusercontent.com/yonggekkk/sing-box-yg/main/kp.sh -o 
 
 1、serv00.yml与kp.sh都为"强制保活脚本"，就算Serv00清空你服务器上所有文件，只要让你连接成功，就会自动安装脚本保活，保持不死状态
 
-2、github也可以不设置定时，在以下两行前加一个```#```字符即可屏蔽定时运行。当发现节点失效，进actions自己启动一次也可
+2、方案一与方案二、三不可混用，方案二与三可相互无缝替换
 
-``` #  schedule: ```
 
-``` #   - cron: '0 */4 * * *' ```
-
-3、方案一与方案二、三不可混用，方案二与三可相互无缝替换
 
 -----------------------------------------------------
 
